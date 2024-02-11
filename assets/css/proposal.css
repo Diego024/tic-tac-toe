@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  -webkit-tap-highlight-color: rgba(
+    0,
+    0,
+    0,
+    0
+  ); /* Para Safari, iOS y algunos navegadores Android */
+  -webkit-touch-callout: none; /* Desactivar la selección de texto */
+  -webkit-user-select: none; /* Desactivar la selección de texto */
+  -khtml-user-select: none; /* Desactivar la selección de texto para Konqueror (KDE) */
+  -moz-user-select: none; /* Desactivar la selección de texto para Mozilla Firefox */
+  -ms-user-select: none; /* Desactivar la selección de texto para Internet Explorer y Edge */
+  user-select: none; /* Desactivar la selección de texto */
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e0c1c6;
+  padding: 0 2rem;
+  color: #8f3a44;
+}
+
+.proposal-title {
+  margin-bottom: 0;
+  margin-top: 5rem;
+}
+.proposal-subtitle {
+  margin-top: 0.25rem;
+}
+
+.proposal-text {
+  text-align: center;
+  font-size: 2rem;
+  margin: 3rem;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons-container button {
+  width: 40%;
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  background-color: #e1707d;
+  color: #7f2f39;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.buttons-container button:hover {
+  background-color: #a94753;
+  color: #e0c1c6;
+}
+
+#why-not_sticker {
+  width: 200px;
+
+  position: fixed;
+  top: 120px;
+  right: -200px;
+  transition: right 0.5s ease;
+}
+
+#invitation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+
+#invitation > h3 {
+  margin-bottom: 0;
+}
+
+.minion-img {
+  width: 200px;
+}
