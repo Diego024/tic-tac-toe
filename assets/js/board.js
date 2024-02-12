@@ -49,8 +49,9 @@ function handleClick(e) {
                 endGame(false);
             } else if (isDraw()) {
                 endGame(true);
+            } else {
+                humanTurn = true;
             }
-            humanTurn = true;
         }, 500);
     }
 }
